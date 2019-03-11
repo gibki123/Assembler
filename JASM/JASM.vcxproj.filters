@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{8c3422a5-9058-4008-9968-68d10c69dd6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{9f081aab-3b75-40ba-ac8e-1acf6fe9b86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{5cb11ec9-e252-4649-ae47-0b92ea8181ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JAApp.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JAApp.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Reasource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
